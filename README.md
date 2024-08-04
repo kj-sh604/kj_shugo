@@ -24,7 +24,7 @@ a VERY minimal Hugo theme that I use on my [blog](https://aedrielkylejavier.me/a
 
 ![scrot with content](assets/example_content-scrot.png)
 
-***example blog site*** *(with* `datesinlist = true` *in* `hugo.toml`*)*
+***example blog site*** *with* `datesinlist = true` *in* `hugo.toml` *([aedrielkylejavier.me/articles/](https://aedrielkylejavier.me/articles/))*
 
 ![scrot of example blogsite](assets/blogsite-scrot.png)
 
