@@ -48,7 +48,7 @@ rm -rf themes/kj_shugo/.git
 rm -r themes/kj_shugo/assets
 ```
 
-you can now declare `theme = kj_shugo` in your `hugo.toml`/`config.toml` file to use the theme.
+you can now declare `theme = ['kj_shugo']` in your `hugo.toml` file to use the theme.
 
 ### generate rss feed
 
