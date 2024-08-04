@@ -24,6 +24,10 @@ a VERY minimal Hugo theme that I use on my [blog](https://aedrielkylejavier.me/a
 
 ![scrot with content](assets/example_content-scrot.png)
 
+***example blog site*** *(with* `datesinlist = true` *in* `hugo.toml`*)*
+
+![scrot of example blogsite](assets/blogsite-scrot.png)
+
 ***example blog post*** *([aedrielkylejavier.me/articles/2023-01-06_blog-redesign](https://aedrielkylejavier.me/articles/2023-01-06_blog-redesign/))*
 
 ![scrot of example blogpost](assets/blog-example-scrot.png)
@@ -52,6 +56,8 @@ rm -r themes/kj_shugo/assets
 ```
 
 you can now declare `theme = ['kj_shugo']` in your `hugo.toml` file to use the theme.
+
+see [`themes/kj_shugo/hugo.toml`](https://github.com/kj-sh604/kj_shugo/blob/master/hugo.toml) for configuration options and parameters.
 
 ### generate rss feed
 
