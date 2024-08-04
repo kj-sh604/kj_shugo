@@ -5,11 +5,11 @@
 a VERY minimal Hugo theme that I use on my [blog](https://aedrielkylejavier.me/articles/) and [scripts/tools](https://aedrielkylejavier.me/scripts-and-tools/) sites.
 
 ## features:
+* ![rss logo](assets/rss.webp) generates an rss feed with a `Makefile` (`public/rss.xml`)
 * dead simple stylesheet (`static/style.css`)
 * responsive web design for mobile and desktop (see screenshots)
 * dynamic navigation with `topnav` and `nextprev` (good for blogs)
 * decent amount of code and configuration comments to make it as self-documenting as possible.
-* generates an rss feed with a `Makefile` (`public/rss.xml`) ![rss logo](assets/rss.webp)
 * dark mode and light mode (based on site visitors' system settings)
     * this is not done with CSS; rather, it is achieved with a simple `<meta>` tag:
         * `<meta name="color-scheme" content="dark light">`
@@ -56,7 +56,7 @@ make
 
 * [Hugo's Documentation Site](https://gohugo.io/documentation/).
 * [Hugo's Templates Documentation](https://gohugo.io/templates/).
-* See the theme in action on my… :
+* See the theme in action on my:
     * [Blog Site](https://aedrielkylejavier.me/articles/)
     * [Scripts & Tools Site](https://aedrielkylejavier.me/scripts-and-tools/)
     * ["No Javascript" Version of my Website](https://aedrielkylejavier.me/noscript/)

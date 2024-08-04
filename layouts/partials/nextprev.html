@@ -1,0 +1,15 @@
+{{ if or .Next .Prev -}}
+<div id="nextprev">
+    {{- with .Prev }}<br>
+    <a href="{{ .RelPermalink}}">
+        <div id="prevart">< Previous: &nbsp; {{.Title}}</div><br>
+    </a>
+    {{ end -}}
+    {{- with .Next -}}
+    <a href="{{ .RelPermalink}}">
+        <div id="nextart">> Next: &nbsp; {{.Title}}</div>
+    </a>
+    <br>
+    {{ end -}}
+</div>
+{{ end -}}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+<head>
+    <title>{{ if not .IsHome }}{{ .Title | safeHTML }} | {{ end }}{{ .Site.Title | safeHTML }}</title>
+    <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+    {{ if isset .Params "tags" }}
+    <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . " , " }}{{ end }}">
+    {{ end -}}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta charset="utf-8">
+    <meta name="color-scheme" content="dark light">
+    <link rel="canonical" href="{{ .Site.BaseURL }}">
+    <link rel='alternate' type='application/rss+xml' title="{{ .Site.Title }} RSS" href='index.xml'>
+    {{ with .Site.Params.favicon }}
+    <link rel="icon" href="{{ . }}">
+    {{ end -}}
+    <link rel='stylesheet' type='text/css' href='{{ .Site.BaseURL }}style.css'>
+</head>
+
+<body>
+    {{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
+    <main>
+        {{ if not .IsHome }}
+            <div class="top-nav-controls"><a href="{{ .Site.BaseURL }}">^^ &nbsp; {{ .Site.Title }}</a>
+            {{ if .Param "topnav" }}{{ partial "topnav-nextprev.html" . -}}{{ end -}}
+        </div>
+        {{ end }}
+        <header>
+            <h1 id="tag_{{ .Title }}">{{ .Title }}</h1>
+        </header>
+        {{ if .IsHome }}{{ partial "description.html" . }}{{ end -}}
+        <article>
+            {{ block "main" . }}
+            {{ .Content }}
+            {{ end }}
+            <br>
+            {{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
+            {{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
+        </article>
+    </main>
+    {{ block "footer" . }}
+    <footer>
+        <br>
+        {{ $baseURL := .Site.BaseURL }}
+        {{ $currentURL := .Permalink }}
+        {{ $isTagMainPage := eq $currentURL (printf "%stags/" $baseURL) }}
+        {{ if not $isTagMainPage }}
+            {{ if .Param "taglist" }}<a href="{{ $baseURL }}/tags">^ &nbsp; ⚓ Tags/Topics 🗨</a><br>{{ end -}}
+        {{ end }}
+        <a href="{{ $baseURL }}">^^ &nbsp; {{ .Site.Title }}</a><br>
+        {{- if .Param "showrss" }}<br><br><a href="{{ .Site.BaseURL }}rss.xml"><img src="{{ .Site.BaseURL }}rss.svg"
+                style="max-height:1.5em" alt="rss feed" title="subscribe via rss for updates." loading="lazy"></a>{{ end }}
+    </footer>
+    {{ end }}
+</body>
+
+</html>

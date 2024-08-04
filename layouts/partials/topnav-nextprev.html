@@ -1,0 +1,17 @@
+{{ if or .Next .Prev -}}
+<div id="nextprev">
+    <small>
+    {{- with .Prev }}
+    <a href="{{ .RelPermalink}}">
+        < Previous Post
+    </a>
+    {{ end -}}
+    {{- with .Next -}}
+    &nbsp; &nbsp; &nbsp;
+    <a href="{{ .RelPermalink}}">
+        Next Post >
+    </a>
+    {{ end -}}
+    </small>
+</div>
+{{ end -}}
