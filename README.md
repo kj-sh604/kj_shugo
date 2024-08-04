@@ -32,25 +32,25 @@ a VERY minimal Hugo theme that I use on my [blog](https://aedrielkylejavier.me/a
 
 ### theme installation
 
-```sh
+```bash
 hugo new site [YOUR SITE NAME]
 cd [YOUR SITE NAME]
-git clone https://github.com/kj-sh604/kj_shugo themes/kj_shugo
-# copy CSS to parent directory
+git clone https://github.com/kj-sh604/kj_shugo.git themes/kj_shugo
+# copy css to the parent directory
 cp themes/kj_shugo/static/style.css static/
-# be careful with the next command ("ungits" the theme directory)
+# be careful with the next command (removes the .git directory in themes/kj_shugo)
 rm -rf themes/kj_shugo/.git
 ```
 
-you can now declare `theme = kj_shugo` in your `hugo.toml`/`config.toml` file.
+you can now declare `theme = kj_shugo` in your `hugo.toml`/`config.toml` file to use the theme.
 
 ### generate rss feed
 
 * run the following in the hugo working directory (where `Makefile` is located)
-```sh
+```bash
 make
 ```
-**⚠ Disclaimer:** this `Makefile` originally used `sed -i` which works as expected on GNU/Linux. However, I have not been able to test its behaviour on macOS or the BSDs. I've rewrote it to not utilize any OS specific arguments (`-i` in this case), but it's still untested at the moment. So please be very careful when running `make` when you're on those OSs.
+⚠ **Disclaimer:** this Makefile originally used `sed -i`, which works as expected on GNU/Linux. However, I have not been able to test its behaviour on macOS or the BSDs. I have rewritten it to avoid using any OS-specific arguments (`-i` in this case), but it remains untested at this time. Therefore, please exercise caution when running `make` on these operating systems.
 
 ## additional links and info
 
