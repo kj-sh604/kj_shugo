@@ -14,7 +14,7 @@ a VERY minimal Hugo theme that I use on my [blog](https://aedrielkylejavier.me/a
     * this is not done with CSS; rather, it is achieved with a simple `<meta>` tag:
         * `<meta name="color-scheme" content="dark light">`
 
-# `scot`s
+# scrots
 
 **deskop**
 
