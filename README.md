@@ -10,7 +10,7 @@ a VERY minimal Hugo theme that I use on my [blog](https://aedrielkylejavier.me/a
 * dynamic navigation with `topnav` and `nextprev` (good for blogs)
 * decent amount of code and configuration comments to make it as self-documenting as possible.
 * generates an rss feed with a `Makefile` (`public/rss.xml`) ![rss logo](assets/rss.webp)
-* dark mode and light mode (based on site vistors' system settings)
+* dark mode and light mode (based on site visitors' system settings)
     * this is not done with CSS; rather, it is achieved with a simple `<meta>` tag:
         * `<meta name="color-scheme" content="dark light">`
 
@@ -46,12 +46,17 @@ you can now declare `theme = kj_shugo` in your `hugo.toml`/`config.toml` file.
 
 ### generate rss feed
 
-* run the following in the main working directory (where `Makefile` is located)
+* run the following in the hugo working directory (where `Makefile` is located)
 ```sh
 make
 ```
-⚠ Disclaimer: this `Makefile` originally used `sed -i` which works as expected on GNU/Linux. However, I have not been able to test its behaviour on macOS or the BSDs. I've rewrote it to not utilize any OS specific arguments (`-i` in this case), but it's still untested at the moment. So please be very careful when running `make` when you're on those OSs.
+**⚠ Disclaimer:** this `Makefile` originally used `sed -i` which works as expected on GNU/Linux. However, I have not been able to test its behaviour on macOS or the BSDs. I've rewrote it to not utilize any OS specific arguments (`-i` in this case), but it's still untested at the moment. So please be very careful when running `make` when you're on those OSs.
 
-## additional links and information
+## additional links and info
 
+* [Hugo's Documentation Site](https://gohugo.io/documentation/).
 * [Hugo's Templates Documentation](https://gohugo.io/templates/).
+* See the theme in action on my… :
+    * [Blog Site](https://aedrielkylejavier.me/articles/)
+    * [Scripts & Tools Site](https://aedrielkylejavier.me/scripts-and-tools/)
+    * ["No Javascript" Version of my Website](https://aedrielkylejavier.me/noscript/)
