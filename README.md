@@ -24,6 +24,10 @@ a VERY minimal Hugo theme that I use on my [blog](https://aedrielkylejavier.me/a
 
 ![scrot with content](assets/example_content-scrot.png)
 
+**example blog post** *([aedrielkylejavier.me/articles/2023-01-06_blog-redesign](https://aedrielkylejavier.me/articles/2023-01-06_blog-redesign/))*
+
+![scrot of example blogpost](assets/blog-example-scrot.png)
+
 **mobile**
 
 ![scrot on mobile](assets/mobile-scrot.png)
