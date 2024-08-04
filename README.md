@@ -44,6 +44,8 @@ git clone https://github.com/kj-sh604/kj_shugo.git themes/kj_shugo
 cp themes/kj_shugo/static/style.css static/
 # be careful with the next command (removes the .git directory in themes/kj_shugo)
 rm -rf themes/kj_shugo/.git
+# remove assets/ directory (not necessary for the theme)
+rm -r themes/kj_shugo/assets
 ```
 
 you can now declare `theme = kj_shugo` in your `hugo.toml`/`config.toml` file to use the theme.
