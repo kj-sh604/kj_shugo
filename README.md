@@ -42,7 +42,10 @@ cd [YOUR SITE NAME]
 git clone https://github.com/kj-sh604/kj_shugo.git themes/kj_shugo
 # copy css to the parent directory
 cp themes/kj_shugo/static/style.css static/
-# be careful with the next command (removes the .git directory in themes/kj_shugo)
+# copy Makefile to parent directory (for rss feed generation)
+cp themes/kj_shugo/Makefile ./
+# be careful with the next command(s) 
+# remove the .git directory in themes/kj_shugo
 rm -rf themes/kj_shugo/.git
 # remove assets/ directory (not necessary for the theme)
 rm -r themes/kj_shugo/assets
@@ -57,6 +60,12 @@ you can now declare `theme = ['kj_shugo']` in your `hugo.toml` file to use the t
 make
 ```
 ⚠ **Disclaimer:** this Makefile originally used `sed -i`, which works as expected on GNU/Linux. However, I have not been able to test its behaviour on macOS or the BSDs. I have rewritten it to avoid using any OS-specific arguments (`-i` in this case), but it remains untested at this time. Therefore, please exercise caution when running `make` on these operating systems.
+
+### creating a new page
+
+```bash
+hugo new content [TITLE OF WEBPAGE].md
+```
 
 ## additional links and info
 
