@@ -1,4 +1,4 @@
-![Hugo Logo](assets/hugo-logo.png)
+![Hugo Logo](assets/kj_shugo-logo.png)
 
 # kj_sh604's Hugo Theme (kj_shugo)
 
