@@ -12,6 +12,5 @@ a VERY minimal Hugo theme that I use on my [blog](https://aedrielkylejavier.me/a
 * dark mode and light mode (based on site vistors' system settings)
     * this is not done with CSS; rather, it is achieved with a simple `<meta>` tag:
         * `<meta name="color-scheme" content="dark light">`
-![rss logo](assets/rss.webp)
-* generates an rss feed with a `Makefile` (`public/rss.xml`)
+* generates an rss feed with a `Makefile` (`public/rss.xml`) ![rss logo](assets/rss.webp)
     * this `Makefile` originally used `sed -i` which works as expected on GNU/Linux. However, I have not been able to test its behaviour on macOS and the BSDs. I've rewrote it to not utilize any OS specific arguments (`-i` in this case), but it's still untested at the moment. So please be very careful when running `make` when you're on those OSs.
