@@ -2,39 +2,28 @@
 
 # kj_sh604's Hugo Theme (kj_shugo)
 
-a VERY minimal Hugo theme that I use on my [blog](https://aedrielkylejavier.me/articles/) and [scripts/tools](https://aedrielkylejavier.me/scripts-and-tools/) sites.
-
-## features:
-* ![rss logo](assets/rss.webp) generates an rss feed with a `Makefile` (`public/rss.xml`)
-* dead simple stylesheet (`static/style.css`)
-* responsive web design for mobile and desktop (see screenshots)
-* dynamic navigation with `topnav` and `nextprev` (good for blogs)
-* decent amount of code and configuration comments to make it as self-documenting as possible.
-* dark mode and light mode (based on site visitors' system settings)
-    * this is not done with CSS; rather, it is achieved with a simple `<meta>` tag:
-        * `<meta name="color-scheme" content="dark light">`
+a VERY minimal, "no style" Hugo theme that I use on my [blog](https://aedrielkylejavier.me/articles/) and [scripts/tools](https://aedrielkylejavier.me/scripts-and-tools/) sites.
 
 ## screenshots
 
-**deskop site**
+**on desktop 🖥**
 
 ![scrot on desktop](assets/desktop-scrot.png)
 
-***with example content*** *([aedrielkylejavier.me/scripts-and-tools](https://aedrielkylejavier.me/scripts-and-tools/))*
-
-![scrot with content](assets/example_content-scrot.png)
-
-***example blog site*** *with* `datesinlist = true` *in* `hugo.toml` *([aedrielkylejavier.me/articles/](https://aedrielkylejavier.me/articles/))*
-
-![scrot of example blogsite](assets/blogsite-scrot.png)
-
-***example blog post*** *([aedrielkylejavier.me/articles/2023-01-06_blog-redesign](https://aedrielkylejavier.me/articles/2023-01-06_blog-redesign/))*
-
-![scrot of example blogpost](assets/blog-example-scrot.png)
-
-**mobile site (responsive)**
+**on mobile 📱**
 
 ![scrot on mobile](assets/mobile-scrot.png)
+
+## features:
+* ![rss logo](assets/rss.webp) generates an rss feed with a `Makefile` (`public/rss.xml`).
+* dynamic navigation with `topnav` and `nextprev` (good for blogs).
+* decent amount of code and configuration comments to make it as self-documenting as possible.
+* "no style" stylesheet (`static/style.css`).
+    * utilizes default HTML colors and styles wherever reasonable.
+    * it exists just to provide responsive web design for mobile and desktop (see screenshots).
+* dark mode and light mode (based on site visitors' system settings).
+    * this is not done with CSS; rather, it is achieved with a simple `<meta>` tag:
+        * `<meta name="color-scheme" content="dark light">`
 
 ## usage
 
@@ -72,6 +61,33 @@ make
 ```bash
 hugo new content [TITLE OF WEBPAGE].md
 ```
+
+## more screenshots
+
+### example content
+
+***my scripts & tools site*** *([aedrielkylejavier.me/scripts-and-tools](https://aedrielkylejavier.me/scripts-and-tools/))*
+
+![scrot with content](assets/example_content-scrot.png)
+
+***my blogsite*** *with* `datesinlist = true` *in* `hugo.toml` *([aedrielkylejavier.me/articles/](https://aedrielkylejavier.me/articles/))*
+
+![scrot of example blogsite](assets/blogsite-scrot.png)
+
+***a blogpost*** *([aedrielkylejavier.me/articles/2023-01-06_blog-redesign](https://aedrielkylejavier.me/articles/2023-01-06_blog-redesign/))*
+
+![scrot of example blogpost](assets/blog-example-scrot.png)
+
+### light mode
+
+**on desktop 🖥**
+
+![scrot on desktop, light mode](assets/desktop-scrot-light.png)
+
+**on mobile 📱**
+
+![scrot on mobile, light mode](assets/mobile-scrot-light.png)
+
 
 ## additional links and info
 

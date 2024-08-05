@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://www.YOUR-WEBSITE-NAME.com"
 languageCode = "en-us"
 title = "🌐 place site title here! (hugo.toml) 🔧"
 
