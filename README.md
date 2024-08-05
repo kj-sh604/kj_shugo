@@ -43,11 +43,11 @@ a VERY minimal, "no style" Hugo theme that I use on my [blog](https://aedrielkyl
 
 ### light mode 💡
 
-**on desktop 🖥**
+***on desktop*** 🖥
 
 ![scrot on desktop, light mode](assets/desktop-scrot-light.png)
 
-**on mobile 📱**
+***on mobile*** 📱
 
 ![scrot on mobile, light mode](assets/mobile-scrot-light.png)
 </p></details>
