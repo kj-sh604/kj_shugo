@@ -25,7 +25,7 @@ a VERY minimal, "no style" Hugo theme that I use on my [blog](https://aedrielkyl
 
 ![scrot on mobile](assets/mobile-scrot.png)
 
-<details><summary><h2>← expand for more screenshots 📸</h2></summary><p>
+<details><summary><strong>← expand for more screenshots 📸</strong></summary><p>
 
 ### example content 📝
 
