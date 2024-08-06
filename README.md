@@ -13,7 +13,7 @@ a VERY minimal, "no style" Hugo theme that I use on my [blog](https://aedrielkyl
     * it exists just to provide responsive web design for mobile and desktop (see screenshots).
 * dark mode and light mode (based on site visitors' system settings).
     * this is not done with CSS; rather, it is achieved with a simple `<meta>` tag:
-        * `<meta name="color-scheme" content="dark light">`
+        * `<meta name="color-scheme" content="light dark">`
      
 ## 📷 screenshots
 
