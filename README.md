@@ -2,7 +2,7 @@
 
 # kj_sh604's Hugo Theme (kj_shugo)
 
-a VERY minimal, "no style" Hugo theme that I use on my [blog](https://aedrielkylejavier.me/articles/) and [scripts/tools](https://aedrielkylejavier.me/scripts-and-tools/) sites.
+a VERY minimal, "no style" Hugo theme that I use on my [blog](https://aedrielkylejavier.me/articles/) and [programs/scripts](https://aedrielkylejavier.me/programs-and-scripts/) sites.
 
 ## ✨ features
 * ![rss logo](assets/rss.webp) generates an rss feed with a `Makefile` (`public/rss.xml`).
@@ -29,7 +29,7 @@ a VERY minimal, "no style" Hugo theme that I use on my [blog](https://aedrielkyl
 
 ### example content 📝
 
-***my scripts & tools site*** *([aedrielkylejavier.me/scripts-and-tools](https://aedrielkylejavier.me/scripts-and-tools/))*
+***my programs & scripts site*** *([aedrielkylejavier.me/programs-and-scripts](https://aedrielkylejavier.me/programs-and-scripts/))*
 
 ![scrot with content](assets/example_content-scrot.png)
 
@@ -95,5 +95,5 @@ hugo new content [TITLE OF WEBPAGE].md
 * [Hugo's Templates Documentation](https://gohugo.io/templates/).
 * See the theme in action on my:
     * [Blog Site](https://aedrielkylejavier.me/articles/)
-    * [Scripts & Tools Site](https://aedrielkylejavier.me/scripts-and-tools/)
+    * [Programs & Scripts Site](https://aedrielkylejavier.me/programs-and-scripts/)
     * ["No Javascript" Version of my Website](https://aedrielkylejavier.me/noscript/)
