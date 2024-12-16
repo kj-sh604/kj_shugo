@@ -96,4 +96,3 @@ hugo new content [TITLE OF WEBPAGE].md
 * See the theme in action on my:
     * [Blog Site](https://aedrielkylejavier.me/articles/)
     * [Programs & Scripts Site](https://aedrielkylejavier.me/programs-and-scripts/)
-    * ["No Javascript" Version of my Website](https://aedrielkylejavier.me/noscript/)
