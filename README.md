@@ -37,7 +37,7 @@ a VERY minimal, "no style" Hugo theme that I use on my [blog](https://aedrielkyl
 
 ![scrot of example blogsite](assets/blogsite-scrot.png)
 
-***a blogpost*** *([aedrielkylejavier.me/articles/2023-01-06_blog-redesign](https://aedrielkylejavier.me/articles/2023-01-06_blog-redesign/))*
+***a blogpost***
 
 ![scrot of example blogpost](assets/blog-example-scrot.png)
 
