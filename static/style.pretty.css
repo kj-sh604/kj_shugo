@@ -21,13 +21,10 @@ tr {
     border: 1px solid #6D6D6D
 }
 
-html {
+body {
     line-height: 2;
     font-family: sans-serif;
     font-size: 1.25rem;
-}
-
-body {
     margin: 0 auto;
     max-width: 50em;
     padding: 2.5rem;
@@ -183,7 +180,7 @@ td {
 }
 
 header {
-    margin-bottom: 4em;
+    margin-bottom: 1em;
     text-align: center;
 }
 
