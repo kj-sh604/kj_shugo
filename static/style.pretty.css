@@ -39,16 +39,12 @@ body {
 
 @media(max-width: 37.5rem) {
     body {
-        font-size: .9em;
+        font-size: 1em;
         padding: 1em
     }
 
     h1 {
         font-size: 1.8em
-    }
-
-    html {
-        font-size: 1.125rem;
     }
 }
 
