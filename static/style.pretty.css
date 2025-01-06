@@ -24,7 +24,6 @@ tr {
 body {
     line-height: 2;
     font-family: sans-serif;
-    font-size: 1.25rem;
     margin: 0 auto;
     max-width: 50em;
     padding: 2.5rem;
@@ -39,7 +38,6 @@ body {
 
 @media(max-width: 37.5rem) {
     body {
-        font-size: 1em;
         padding: 1em
     }
 
@@ -52,7 +50,6 @@ body {
     body {
         background-color: transparent;
         color: #000;
-        font-size: 12pt;
     }
 
     h2,
@@ -88,7 +85,6 @@ h6 {
 
 h5,
 h6 {
-    font-size: 1em;
     font-style: italic;
 }
 
