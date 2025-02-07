@@ -10,7 +10,7 @@ p.centered {
 }
 
 p.mono {
-    font-family: monospace;
+    font-family: monospace, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
     padding-bottom: 1.5rem;
 }
 
@@ -23,7 +23,7 @@ tr {
 
 body {
     line-height: 2;
-    font-family: sans-serif;
+    font-family: sans-serif, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
     margin: 0 auto;
     max-width: 50em;
     padding: 2.5rem;
@@ -112,7 +112,7 @@ blockquote {
 }
 
 code {
-    font-family: monospace;
+    font-family: monospace, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
     margin: 0;
     white-space: pre-wrap;
 }
